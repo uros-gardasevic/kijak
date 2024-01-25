@@ -10,11 +10,11 @@ permalink: .well-known/apple-app-site-association
   "applinks": {
     "details": [
          {
-           "appIDs": [ "9LHQ7BSA22.net.incodeid.incode.Clip" ],
+           "appIDs": [ "9LHQ7BSA22.net.incodeid.incode" ],
            "components": [
             {
-              "/": "/buy/*",
-              "comment": "Matches any URL with a path that starts with /buy/."
+              "/": "/run",
+              "comment": "Matches any URL with a path that starts with /run"
             },
            ]
           }
