@@ -15,7 +15,7 @@ permalink: .well-known/apple-app-site-association
             {
               "/": "/run",
               "comment": "Matches any URL with a path that starts with /run"
-            },
+            }
            ]
           }
         ]
