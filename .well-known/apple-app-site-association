@@ -6,6 +6,7 @@
     "details": [
          {
            "appIDs": [ "9LHQ7BSA22.net.incodeid.incode" ],
+           "paths": ["*"],
            "components": [
             {
               "/": "/run",
