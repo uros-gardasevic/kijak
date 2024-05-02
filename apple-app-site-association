@@ -4,7 +4,21 @@ permalink: .well-known/apple-app-site-association
 ---
 
 {
-    "appclips": {
-        "apps": ["9LHQ7BSA22.net.incodeid.incode.wallet"]
-    }
+  "appclips": {
+    "apps": ["9LHQ7BSA22.net.incodeid.incode.Clip"]
+  }, 
+  "applinks": {
+    "details": [
+         {
+           "appIDs": [ "9LHQ7BSA22.net.incodeid.incode" ],
+           "paths": ["*"],
+           "components": [
+            {
+              "/": "/run",
+              "comment": "Matches any URL with a path that starts with /run"
+            }
+           ]
+          }
+        ]
+      }
 }
