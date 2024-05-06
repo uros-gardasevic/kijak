@@ -6,9 +6,17 @@
     <meta name="description" content="Incode Verify is the go-to solution for creating and managing your reusable biometric identity. It enables swift and secure authentication at any Incode-compatible location or vendor.">
     <meta property="og:url" content="https://kijak.nl">
     <meta name="apple-itunes-app" content="app-id=6476494892, app-clip-bundle-id=net.incodeid.incode.Clip, app-clip-display=card">
+    <script>
+        function copyToClipboard() {
+          var copyText = "url=https%3A%2F%2Fincode-id-5bdz1clk.stage.incodetest.com%2F%3Fclient_id%3Dwf_incode612%26work_email_hint%3Dpoojit.sharma%2540incode.com%26auth-method%3DSIGN_IN%26redirect_uuid%3Dd7215919-d610c-43b8-bec7-f87b948b479f%26origin%3Dnative"
+          copyText.select();
+          document.execCommand("copy");
+          alert("Copied the text: " + copyText.value);
+        }
+    </script>
 </head>
     <h1> Testing Links </h1>
-    <a href="https://apps.apple.com/app/incode-verify/id6476494892"> Store Link </a>
+    <a href="https://apps.apple.com/app/incode-verify/id6476494892" onclick="copyToClipboard()"> Store Link </a>
     <br/>
     <br/>
     <!-- Example query string. Might not work (depends on the data)-->
