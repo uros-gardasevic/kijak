@@ -5,14 +5,31 @@ permalink: .well-known/apple-app-site-association
 
 {
   "appclips": {
-    "apps": ["9LHQ7BSA22.net.incodeid.incode.Clip"]
-  }, 
+    "apps": [
+      "9LHQ7BSA22.net.incodeid.incode.Clip"
+    ]
+  },
   "applinks": {
     "details": [
-         {
-           "appIDs": [ "9LHQ7BSA22.net.incodeid.incode" ],
-           "paths": ["*"]
+      {
+        "appIDs": [
+          "9LHQ7BSA22.net.incodeid.incode"
+        ],
+        "components": [
+          {
+            "/": "/run",
+            "comment": "Matches any URL with a path that starts with /run"
           }
         ]
+      },
+      {
+        "appIDs": [
+          "9LHQ7BSA22.com.incode.IncodeVerifyExample"
+        ],
+        "paths": [
+          "/verificationResult/*"
+        ]
       }
+    ]
+  }
 }
