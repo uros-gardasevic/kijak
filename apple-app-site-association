@@ -29,6 +29,14 @@ permalink: .well-known/apple-app-site-association
         "paths": [
           "/verificationResult/*"
         ]
+      },
+{
+        "appIDs": [
+          "RKM7A89MJW.com.incode.IncodeAcmeExample"
+        ],
+        "paths": [
+          "/verificationResult/*"
+        ]
       }
     ]
   }
